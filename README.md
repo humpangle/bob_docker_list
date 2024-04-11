@@ -65,3 +65,9 @@ Open `lib/bob_docker_list/sorter.ex` and add entry such as:
 ```elixir
 defp ubuntu_sorter("noble"), do: 24.04
 ```
+
+## Error
+
+`could not compile dependency :ssl_verify_fun, "mix compile" failed.`
+
+See mix.exs#deps/0
