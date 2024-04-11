@@ -28,3 +28,5 @@ bob_docker_list-*.tar
 .elixir_ls/
 
 .vscode/
+
+!.tool-versions
