@@ -55,3 +55,13 @@ If for some reason you want to regenerate lists, run:
 mix refresh elixir --force
 mix refresh erlang --force
 ```
+
+## Error
+
+`** (RuntimeError) Unknown Ubuntu version noble, please add code to handle it`
+
+Open `lib/bob_docker_list/sorter.ex` and add entry such as:
+
+```elixir
+defp ubuntu_sorter("noble"), do: 24.04
+```
