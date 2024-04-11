@@ -59,5 +59,6 @@ defmodule BobDockerList.Sorter do
   defp ubuntu_sorter("groovy"), do: 20.10
   defp ubuntu_sorter("impish"), do: 21.10
   defp ubuntu_sorter("jammy"), do: 22.04
+  defp ubuntu_sorter("noble"), do: 24.04
   defp ubuntu_sorter(version), do: raise("Unknown Ubuntu version #{version}, please add code to handle it")
 end
